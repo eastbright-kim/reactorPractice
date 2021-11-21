@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1536005E0679C4A099151A67 /* Pods_reactorPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F69AE247B84F81E4EF396D /* Pods_reactorPractice.framework */; };
+		DB0FFBF0274A7AF3004A9428 /* CountingReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FFBEF274A7AF3004A9428 /* CountingReactor.swift */; };
 		DB8E0B09274A6EBA00638C41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E0B08274A6EBA00638C41 /* AppDelegate.swift */; };
 		DB8E0B0B274A6EBA00638C41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E0B0A274A6EBA00638C41 /* SceneDelegate.swift */; };
 		DB8E0B0D274A6EBA00638C41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E0B0C274A6EBA00638C41 /* ViewController.swift */; };
-		DB8E0B10274A6EBA00638C41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8E0B0E274A6EBA00638C41 /* Main.storyboard */; };
 		DB8E0B12274A6EBC00638C41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8E0B11274A6EBC00638C41 /* Assets.xcassets */; };
 		DB8E0B15274A6EBC00638C41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8E0B13274A6EBC00638C41 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7AF244F756A0735F2EDA0799 /* Pods-reactorPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactorPractice.debug.xcconfig"; path = "Target Support Files/Pods-reactorPractice/Pods-reactorPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		C67BCBBBBA0F4580DA20335C /* Pods-reactorPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactorPractice.release.xcconfig"; path = "Target Support Files/Pods-reactorPractice/Pods-reactorPractice.release.xcconfig"; sourceTree = "<group>"; };
+		DB0FFBEF274A7AF3004A9428 /* CountingReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingReactor.swift; sourceTree = "<group>"; };
 		DB8E0B05274A6EBA00638C41 /* reactorPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactorPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8E0B08274A6EBA00638C41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB8E0B0A274A6EBA00638C41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DB8E0B0C274A6EBA00638C41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DB8E0B0F274A6EBA00638C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB8E0B11274A6EBC00638C41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB8E0B14274A6EBC00638C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB8E0B16274A6EBC00638C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7F69AE247B84F81E4EF396D /* Pods_reactorPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reactorPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1536005E0679C4A099151A67 /* Pods_reactorPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		163AA2FDFF046B37F673D3BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AF244F756A0735F2EDA0799 /* Pods-reactorPractice.debug.xcconfig */,
+				C67BCBBBBA0F4580DA20335C /* Pods-reactorPractice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4617EC640AEED190AA65B81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7F69AE247B84F81E4EF396D /* Pods_reactorPractice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DB8E0AFC274A6EBA00638C41 = {
 			isa = PBXGroup;
 			children = (
 				DB8E0B07274A6EBA00638C41 /* reactorPractice */,
 				DB8E0B06274A6EBA00638C41 /* Products */,
+				163AA2FDFF046B37F673D3BB /* Pods */,
+				C4617EC640AEED190AA65B81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,7 +83,7 @@
 				DB8E0B08274A6EBA00638C41 /* AppDelegate.swift */,
 				DB8E0B0A274A6EBA00638C41 /* SceneDelegate.swift */,
 				DB8E0B0C274A6EBA00638C41 /* ViewController.swift */,
-				DB8E0B0E274A6EBA00638C41 /* Main.storyboard */,
+				DB0FFBEF274A7AF3004A9428 /* CountingReactor.swift */,
 				DB8E0B11274A6EBC00638C41 /* Assets.xcassets */,
 				DB8E0B13274A6EBC00638C41 /* LaunchScreen.storyboard */,
 				DB8E0B16274A6EBC00638C41 /* Info.plist */,
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB8E0B19274A6EBC00638C41 /* Build configuration list for PBXNativeTarget "reactorPractice" */;
 			buildPhases = (
+				5AAEDDBFD5CEB7E36F77444D /* [CP] Check Pods Manifest.lock */,
 				DB8E0B01274A6EBA00638C41 /* Sources */,
 				DB8E0B02274A6EBA00638C41 /* Frameworks */,
 				DB8E0B03274A6EBA00638C41 /* Resources */,
+				A7751C567139D86B0ABC9539 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +153,52 @@
 			files = (
 				DB8E0B15274A6EBC00638C41 /* LaunchScreen.storyboard in Resources */,
 				DB8E0B12274A6EBC00638C41 /* Assets.xcassets in Resources */,
-				DB8E0B10274A6EBA00638C41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AAEDDBFD5CEB7E36F77444D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reactorPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7751C567139D86B0ABC9539 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reactorPractice/Pods-reactorPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reactorPractice/Pods-reactorPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactorPractice/Pods-reactorPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB8E0B01274A6EBA00638C41 /* Sources */ = {
@@ -141,20 +208,13 @@
 				DB8E0B0D274A6EBA00638C41 /* ViewController.swift in Sources */,
 				DB8E0B09274A6EBA00638C41 /* AppDelegate.swift in Sources */,
 				DB8E0B0B274A6EBA00638C41 /* SceneDelegate.swift in Sources */,
+				DB0FFBF0274A7AF3004A9428 /* CountingReactor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DB8E0B0E274A6EBA00638C41 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB8E0B0F274A6EBA00638C41 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DB8E0B13274A6EBC00638C41 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +344,7 @@
 		};
 		DB8E0B1A274A6EBC00638C41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF244F756A0735F2EDA0799 /* Pods-reactorPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +355,6 @@
 				INFOPLIST_FILE = reactorPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +372,7 @@
 		};
 		DB8E0B1B274A6EBC00638C41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67BCBBBBA0F4580DA20335C /* Pods-reactorPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +383,6 @@
 				INFOPLIST_FILE = reactorPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
